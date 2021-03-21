@@ -1,5 +1,7 @@
 # Welcome to PatternHouse
 ### The go-to repository for all your pattern needs.
+[![Gitter](https://badges.gitter.im/Printing-Pattern-Programs/WebAppDiscussion.svg)](https://gitter.im/Printing-Pattern-Programs/WebAppDiscussion?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+
 Website - https://patternhouse.tk
 
 ## Goal of the Project
