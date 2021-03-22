@@ -23,6 +23,9 @@ while conversing.
 ## Contributions
 Accepted! We are extremly delighted to have you supporting this project. Please read the ``CONTRIBUTING`` guidelines before doing so.
 
+In order to suggest a pattern, make us of the standard blank template to add your design on it.
+The image format shall be 160 x 160 and the template for same can be accessed <a href="">here</a>
+
 ## Questions?
 Please do feel free to ping @ChlorinePentoxide or @aryashah2k with your questions in the discussions page or on Gitter room.
 
