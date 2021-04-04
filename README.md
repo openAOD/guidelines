@@ -14,7 +14,7 @@ as soon as possible.
 ## Browse the Patterns
 You can browse the patterns in the website - https://patternhouse.tk/browse.html .
 Alternatively, you can browse the `` patterns `` folder in this repository.
-### Not seeing the pattern you want? Open a pattern request, we wil look into in the request as soon as possible.
+### Not able to find desired pattern? Open a pattern request, we will look into the request as soon as possible.
 
 ## Discussions
 Feel free to ask any question regarding this project in GitHub Discussions page. We will get your query answered. Please follow the ``CODE_OF_CONDUCT`` 
