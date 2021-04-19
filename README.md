@@ -1,4 +1,5 @@
 # Welcome to PatternHouse
+
 ### The go-to repository for all your pattern needs.
 [![Gitter](https://badges.gitter.im/Printing-Pattern-Programs/WebAppDiscussion.svg)](https://gitter.im/Printing-Pattern-Programs/WebAppDiscussion?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
@@ -26,6 +27,20 @@ Accepted! We are extremly delighted to have you supporting this project. Please 
 In order to suggest a pattern, make us of the standard blank template to add your design on it.
 
 *The image format shall be 160 x 160 and the template for same can be accessed <a href="https://github.com/PatternHouse/guidelines/blob/main/patterns/Blank%20Template.png">here</a>*
+
+## Patterns Progress Board
+
+Following patterns folder have been added with all the possible patterns so far, code contributions for the same can be started right away!
+
+- [ ] Alphabetic Patterns
+- [x] Symbol Patterns
+- [x] Spiral Patterns
+- [x] Series Patterns
+- [ ] Numeric Patterns
+- [ ] Pyramid Patterns
+- [x] Wave Patterns
+- [x] String Patterns
+
 
 ## Questions?
 Please do feel free to ping @ChlorinePentoxide or @aryashah2k with your questions in the discussions page or on Gitter room.
