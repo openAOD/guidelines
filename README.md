@@ -36,7 +36,7 @@ Following patterns folder have been added with all the possible patterns so far,
 - [x] Symbol Patterns
 - [x] Spiral Patterns
 - [x] Series Patterns
-- [ ] Numeric Patterns
+- [x] Numeric Patterns
 - [ ] Pyramid Patterns
 - [x] Wave Patterns
 - [x] String Patterns
