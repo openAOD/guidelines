@@ -32,12 +32,12 @@ In order to suggest a pattern, make us of the standard blank template to add you
 
 Following patterns folder have been added with all the possible patterns so far, code contributions for the same can be started right away!
 
-- [ ] Alphabetic Patterns
+- [x] Alphabetic Patterns
 - [x] Symbol Patterns
 - [x] Spiral Patterns
 - [x] Series Patterns
 - [x] Numeric Patterns
-- [ ] Pyramid Patterns
+- [x] Pyramid Patterns
 - [x] Wave Patterns
 - [x] String Patterns
 
