@@ -28,18 +28,15 @@ In order to suggest a pattern, make us of the standard blank template to add you
 
 *The image format shall be 160 x 160 and the template for same can be accessed <a href="https://github.com/PatternHouse/guidelines/blob/main/patterns/Blank%20Template.png">here</a>*
 
-## Patterns Progress Board
+## PatternHouse Contents
 
-Following patterns folder have been added with all the possible patterns so far, code contributions for the same can be started right away!
-
-- [x] Alphabetic Patterns
-- [x] Symbol Patterns
-- [x] Spiral Patterns
-- [x] Series Patterns
-- [x] Numeric Patterns
-- [x] Pyramid Patterns
-- [x] Wave Patterns
-- [x] String Patterns
+|No.|Language|Link To View|
+|---|--------|------------|
+|1.|C Language|<a href="https://github.com/PatternHouse/C-PatternHouse">< alt="CLang" width="80px" src="https://github.com/PatternHouse/Join_PatternHouse/blob/main/assets/contribute-button.png" /></a>|
+|1.|C++ Language|<a href="https://github.com/PatternHouse/CPlusplus-PatternHouse">< alt="C++" width="80px" src="https://github.com/PatternHouse/Join_PatternHouse/blob/main/assets/contribute-button.png" /></a>|
+|1.|Python Language|<a href="https://github.com/PatternHouse/Python-PatternHouse">< alt="Python" width="80px" src="https://github.com/PatternHouse/Join_PatternHouse/blob/main/assets/contribute-button.png" /></a>|
+|1.|Java Language|<a href="https://github.com/PatternHouse/Java-PatternHouse">< alt="Java" width="80px" src="https://github.com/PatternHouse/Join_PatternHouse/blob/main/assets/contribute-button.png" /></a>|
+|1.|C# Language|<a href="https://github.com/PatternHouse/CSharp-PatternHouse">< alt="C#" width="80px" src="https://github.com/PatternHouse/Join_PatternHouse/blob/main/assets/contribute-button.png" /></a>|
 
 
 ## Questions?
