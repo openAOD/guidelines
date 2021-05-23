@@ -11,10 +11,14 @@ blocks:
         - name: Deploy
           commands:
             - checkout
+            - export YEAR=$(date +'%Y')
+            - export MONTH=$(date +'%m')
+            - export DAY=$(date +'%d')
             - 'git clone https://github.com/PatternHouse/cdn.git'
             - mkdir -pv cdn/store
             - cp -r patterns/. cdn/store/
             - cd cdn
+            - 'echo LAST_DEPLOY_DATE:$YEAR/$MONTH/$DAY > cdn/state'
             - git config user.name $SM_DEPLOY_GITHUB_NAME
             - git config user.email $SM_DEPLOY_GITHUB_EMAIL
             - git add *
