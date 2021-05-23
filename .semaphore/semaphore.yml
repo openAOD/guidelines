@@ -19,5 +19,7 @@ blocks:
             - git config user.email $SM_DEPLOY_GITHUB_EMAIL
             - git add *
             - git status
-            - 'git commit -a -m "Semaphore CI/CD : Updating phcore binaries ... "'
+            - 'git commit -a -m "Semaphore CI/CD : Updating Guidelines CDN Store ... "'
             - 'git push https://phmaintainer:$SM_DEPLOY_GITHUB_PASSWORD@github.com/PatternHouse/dist.git'
+      secrets:
+        - name: Semaphore Deployment Variables
