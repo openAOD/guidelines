@@ -18,6 +18,7 @@ blocks:
             - mkdir -pv cdn/store
             - cp -r patterns/. cdn/store/
             - cd cdn
+            - touch cdn/state
             - 'echo LAST_DEPLOY_DATE:$YEAR/$MONTH/$DAY > cdn/state'
             - git config user.name $SM_DEPLOY_GITHUB_NAME
             - git config user.email $SM_DEPLOY_GITHUB_EMAIL
