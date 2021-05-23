@@ -13,7 +13,7 @@ blocks:
             - checkout
             - 'git clone https://github.com/PatternHouse/cdn.git'
             - mkdir -pv cdn/store
-            - cp -a guidelines/patterns/. cdn/store/
+            - cp -r guidelines/patterns/. cdn/store/
             - cd cdn
             - git config user.name $SM_DEPLOY_GITHUB_NAME
             - git config user.email $SM_DEPLOY_GITHUB_EMAIL
