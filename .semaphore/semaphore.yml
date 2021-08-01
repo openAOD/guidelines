@@ -26,4 +26,4 @@ blocks:
             - 'git commit -a -m "Semaphore CI/CD : Updating Guidelines CDN Store ... "'
             - 'git push https://$SM_DEPLOY_GITHUB_NAME:$SM_DEPLOY_GITHUB_PASSWORD@github.com/PatternHouse/cdn.git'
       secrets:
-        - name: Semaphore Deployment Variables
+        - name: Semaphore Deployments Variables
