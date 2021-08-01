@@ -5,8 +5,11 @@ agent:
     type: e1-standard-2
     os_image: ubuntu1804
 blocks:
-  - name: Auto-Deploy to CDN
+  - name: Test
+    dependencies: []
     task:
+      secrets:
+        - name: Semaphore Deployments Variables
       jobs:
         - name: Deploy
           commands:
@@ -26,5 +29,3 @@ blocks:
             - git status
             - 'git commit -a -m "Semaphore CI/CD : Updating Guidelines CDN Store ... "'
             - 'git push https://$SM_DEPLOY_GITHUB_NAME:$SM_DEPLOY_GITHUB_PASSWORD@github.com/PatternHouse/cdn.git'
-      secrets:
-        - name: Semaphore Deployments Variables
