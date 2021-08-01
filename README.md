@@ -1,7 +1,7 @@
 # Welcome to PatternHouse
 
 ### The go-to repository for all your pattern needs.
-[![Gitter](https://badges.gitter.im/Printing-Pattern-Programs/WebAppDiscussion.svg)](https://gitter.im/Printing-Pattern-Programs/WebAppDiscussion?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+[![Gitter](https://badges.gitter.im/Printing-Pattern-Programs/WebAppDiscussion.svg)](https://gitter.im/Printing-Pattern-Programs/WebAppDiscussion?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)[![Build Status](https://patternhouse.semaphoreci.com/badges/guidelines/branches/master.svg?style=shields)](https://patternhouse.semaphoreci.com/projects/guidelines)
 
 Website - https://patternhouse.tk
 
