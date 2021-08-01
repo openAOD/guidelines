@@ -5,9 +5,8 @@ agent:
     type: e1-standard-2
     os_image: ubuntu1804
 blocks:
-  - name: Test
-    dependencies:
-      - Secret Test
+  - name: Deploy to CDN
+    dependencies: []
     task:
       secrets:
         - name: Semaphore Deployments Variables
@@ -23,20 +22,9 @@ blocks:
             - cp -r patterns/. cdn/store/
             - cd cdn
             - 'echo LAST_DEPLOY_DATE:$YEAR/$MONTH/$DAY > state.dat'
-            - echo $SMDN
-            - echo $SMDE
             - git config user.name $SMDN
             - git config user.email $SMDE
             - git add *
             - git status
             - 'git commit -a -m "Semaphore CI/CD : Updating Guidelines CDN Store ... "'
             - 'git push https://$SMDN:$SMDPAT@github.com/PatternHouse/cdn.git'
-  - name: Secret Test
-    dependencies: []
-    task:
-      secrets:
-        - name: Test
-      jobs:
-        - name: STEST
-          commands:
-            - echo $TST_S
