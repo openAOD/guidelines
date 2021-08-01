@@ -22,10 +22,11 @@ blocks:
             - cp -r patterns/. cdn/store/
             - cd cdn
             - 'echo LAST_DEPLOY_DATE:$YEAR/$MONTH/$DAY > state.dat'
-            - echo $SM_DEPLOY_GITHUB_NAME
-            - git config user.name $SM_DEPLOY_GITHUB_NAME
-            - git config user.email $SM_DEPLOY_GITHUB_EMAIL
+            - echo $SMDN
+            - echo $SMDE
+            - git config user.name $SMDN
+            - git config user.email $SMDE
             - git add *
             - git status
             - 'git commit -a -m "Semaphore CI/CD : Updating Guidelines CDN Store ... "'
-            - 'git push https://$SM_DEPLOY_GITHUB_NAME:$SM_DEPLOY_GITHUB_PASSWORD@github.com/PatternHouse/cdn.git'
+            - 'git push https://$SMDN:$SMDPAT@github.com/PatternHouse/cdn.git'
