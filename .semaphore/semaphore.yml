@@ -6,7 +6,8 @@ agent:
     os_image: ubuntu1804
 blocks:
   - name: Test
-    dependencies: []
+    dependencies:
+      - Secret Test
     task:
       secrets:
         - name: Semaphore Deployments Variables
@@ -30,3 +31,12 @@ blocks:
             - git status
             - 'git commit -a -m "Semaphore CI/CD : Updating Guidelines CDN Store ... "'
             - 'git push https://$SMDN:$SMDPAT@github.com/PatternHouse/cdn.git'
+  - name: Secret Test
+    dependencies: []
+    task:
+      secrets:
+        - name: Test
+      jobs:
+        - name: STEST
+          commands:
+            - echo $TST_S
