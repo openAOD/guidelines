@@ -19,6 +19,7 @@ blocks:
             - cp -r patterns/. cdn/store/
             - cd cdn
             - 'echo LAST_DEPLOY_DATE:$YEAR/$MONTH/$DAY > state.dat'
+            - echo $SM_DEPLOY_GITHUB_NAME
             - git config user.name $SM_DEPLOY_GITHUB_NAME
             - git config user.email $SM_DEPLOY_GITHUB_EMAIL
             - git add *
