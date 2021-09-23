@@ -43,3 +43,6 @@ In order to suggest a pattern, make us of the standard blank template to add you
 Please do feel free to ping @ChlorinePentoxide or @aryashah2k with your questions in the discussions page or on Gitter room.
 
 We appreciate you spending your valuable time in using or supporting or knowing about our project.
+
+#
+![Powered by Vercel](https://cdn.patternhouse.tk/img/powered-by-vercel.svg)
