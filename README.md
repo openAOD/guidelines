@@ -13,7 +13,7 @@ If you want to see the implementation of the patterns in a language then please 
 as soon as possible.
 
 ## Browse the Patterns
-You can browse the patterns in the website - https://patternhouse.tk/browse.html .
+You can browse the patterns on the website - https://portal.patternhouse.tk
 Alternatively, you can browse the `` patterns `` folder in this repository.
 ### Not able to find desired pattern? Open a pattern request, we will look into the request as soon as possible.
 
